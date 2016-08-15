@@ -1,0 +1,78 @@
+*{
+	box-sizing: border-box;
+
+}
+
+h1 {
+	text-align: center;
+}
+
+@media(min-width: 992px) {
+div {
+	width:31%;
+	background-color: grey;
+	border:1px solid black;
+	float:left;
+	padding: 0 10px 10px 10px;
+	margin: 1%;
+	position: relative;
+	}
+}
+
+@media(max-width: 991px) and (min-width: 768px){
+	#chicken,#beef{
+	width:48%;
+	background-color: grey;
+	border:1px solid black;
+	float:left;
+	padding: 0 10px 10px 10px;
+	margin: 1%;
+	position: relative;
+	}
+
+	#egg {
+	width:98%;
+	background-color: grey;
+	border:1px solid black;
+	float:left;
+	padding: 0 10px 10px 10px;
+	margin: 1%;
+	position: relative;
+	}
+}
+
+@media(max-width: 767px) {
+div {
+	width:98%;
+	background-color: grey;
+	border:1px solid black;
+	float:left;
+	padding: 0 10px 10px 10px;
+	margin: 1%;
+	position: relative;
+	}
+}
+
+header{
+	border: 1px solid;
+	border-right: 0px;
+	border-top:0px;
+	position:absolute;
+	right: 0px;
+	top:0px;
+	width:70px;
+	text-align: center;
+
+}
+
+#chicken header {
+	background-color: red;
+}
+
+#beef header {
+	background-color: pink;
+}
+
+#egg header {
+	background-color: yellow;
+}
