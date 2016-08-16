@@ -1,0 +1,25 @@
+header{
+	background-color: grey; 
+	margin-bottom: 30px;
+}
+
+#brand{
+	color:black;
+	font-size: 3em;
+	text-decoration:none; 
+
+}
+#dish{
+	background-color: grey;
+	margin:0px;
+	padding:0px 10px 10px 10px;
+}
+
+#bs-example-navbar-collapse-1 li{
+text-align: center;
+}
+
+#bs-example-navbar-collapse-1 li hr{
+	margin: 0px;
+	
+}
